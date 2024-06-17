@@ -1,0 +1,25 @@
+.name-list {
+    font-size: 3.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    background-color: red;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+.name {
+    width: 20%;
+    list-style: none;
+}
+
+@media(width < 480px){
+    .name-list {
+        font-size: 10vw;
+        align-content: center;
+        align-self:center;
+    }
+    .name {
+        width: 51%;
+        align-self:center;
+    }
+}
